@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BriteStop</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="shortcut icon" href="imagens/icon.png" type="image/x-icon">
+</head>
+<body>
+
+    <div id="cabecalho">
+       <a href=""><div id="logo"><img src="imagens/logo-britestop.png" alt=""></div></a>
+        <div id="nav">
+            <a href=""><div id="lingua"><img src="imagens/lingua.png" alt=""></div></a>
+            <div class="espaco"></div>
+            <a href=""><div id="mail"><img src="imagens/mail.png" alt=""></div></a>
+            <div class="espaco"></div>
+            <a href=""><div id="user"><img src="imagens/user.png" alt=""></div></a>
+            <div class="espaco"></div>
+            <a href=""><div id="sobre"><img src="imagens/sobre.png" alt=""></div></a>
+            <div class="espaco"></div>
+        </div>
+    </div>
+
+    <div id="navegar">
+        <ul>
+            <li><a href="">&nbsp;&nbsp;Em alta&nbsp;&nbsp;</a></li>
+            <li><a href="">&nbsp;&nbsp;Pacotes&nbsp;&nbsp;</a></li>
+            <li><a href="">&nbsp;&nbsp;Ofertas&nbsp;&nbsp;</a></li>
+            <li><a href="">&nbsp;&nbsp;Nacionais&nbsp;&nbsp;</a></li>
+            <li><a href="">&nbsp;&nbsp;Internacionais&nbsp;&nbsp;</a></li>
+        </ul>
+    </div>
+    
+
+    <div id="img-bonita">
+    </div>
+
+
+    <div id="search">
+        <ul>
+            <li><input type="text" value="" placeholder="Digite aqui..." id="search-bar"></li>
+            <li><a href="">&nbsp;&nbsp;Filtros&nbsp;&nbsp;</a></li>
+            <li><input type="submit" value="Pesquisar" id="search-btn"></li>
+        </ul>
+    </div>
+
+    <div id="viagens">
+        <ul id="lista">
+            <li data-cidade="Rio de Janeiro" data-pais="Brasil" data-continente="América do Sul" data-local="Copabacana Hotel">
+                <a href="">
+                    <div class="anuncio">
+                        <img src="imagens/anuncios/rio-de-janeiro.png" alt="" class="imagem-viagem">
+                        <span class="nome">Copabacana Hotel</span> <br>
+                        <span class="custo">R$938,00</span> <span class="p-noite">p/ noite</span> <br>
+                        <span class="local">Rio de Janeiro, Brasil</span> <br>
+                        <span class="nota">★4,7</span>
+                    </div>
+                </a>
+            </li>
+            
+            <li data-cidade="Nova Delhi" data-pais="Índia" data-continente="Ásia" data-local="Kartavya Room's">
+                <a href="">
+                    <div class="anuncio">
+                        <img src="imagens/anuncios/nova-delhi.png" alt="" class="imagem-viagem">
+                        <span class="nome">Kartavya Room's</span> <br>
+                        <span class="custo">R$620,00</span> <span class="p-noite">p/ noite</span> <br>
+                        <span class="local">Nova Delhi, Índia</span> <br>
+                        <span class="nota">★3,2</span> 
+                    </div>
+                </a>
+            </li>
+
+            <li data-cidade="Marselha" data-pais="França" data-continente="Europa" data-local="Borély Park Tower">
+                <a href="">
+                    <div class="anuncio">
+                        <img src="imagens/anuncios/marselha.png" alt="" class="imagem-viagem">
+                        <span class="nome">Borély Park Tower</span> <br>
+                        <span class="custo">R$2.351,00</span> <span class="p-noite">p/ noite</span> <br>
+                        <span class="local">Marselha, França</span> <br>
+                        <span class="nota">★4,5</span> 
+                    </div>
+                </a>
+            </li>
+
+            <li data-cidade="Sevilha" data-pais="Espanha" data-continente="Europa" data-local="Pousada Del Porvenir">
+                <a href="">
+                    <div class="anuncio">
+                        <img src="imagens/anuncios/sevilha.png" alt="" class="imagem-viagem">
+                        <span class="nome">Pousada Del Porvenir</span> <br>
+                        <span class="custo">R$1.380,00</span> <span class="p-noite">p/ noite</span> <br>
+                        <span class="local">Sevilha, Espanha</span> <br>
+                        <span class="nota">★4,0</span> 
+                    </div>
+                </a>
+            </li>
+            
+            <li data-cidade="Wuhan" data-pais="China" data-continente="Ásia" data-local="Wuhan Hotel">
+                <a href="">
+                    <div class="anuncio">
+                        <img src="imagens/anuncios/wuham.png" alt="" class="imagem-viagem">
+                        <span class="nome">Wuhan Hotel</span> <br>
+                        <span class="custo">R$922,00</span> <span class="p-noite">p/ noite</span> <br>
+                        <span class="local">Wuhan, China</span> <br>
+                        <span class="nota">★3,1</span> 
+                    </div>
+                </a>
+            </li>
+
+            <li data-cidade="Munique" data-pais="Alemanha" data-continente="Europa" data-local="Baviera's House">
+                <a href="">
+                    <div class="anuncio">
+                        <img src="imagens/anuncios/munique.png" alt="" class="imagem-viagem">
+                        <span class="nome">Baviera's House</span> <br>
+                        <span class="custo">R$2.013,00</span> <span class="p-noite">p/ noite</span> <br>
+                        <span class="local">Munique, Alemanha</span> <br>
+                        <span class="nota">★4,5</span> 
+                    </div>
+                </a>
+            </li>
+
+            <li data-cidade="Campinas" data-pais="Brasil" data-continente="América do Sul" data-local="Quarto Campinense">
+                <a href="">
+                    <div class="anuncio">
+                        <img src="imagens/anuncios/campinas.png" alt="" class="imagem-viagem">
+                        <span class="nome">Quarto Campinense</span> <br>
+                        <span class="custo">R$521,00</span> <span class="p-noite">p/ noite</span> <br>
+                        <span class="local">Campinas, Brasil</span> <br>
+                        <span class="nota">★3,9</span> 
+                    </div>
+                </a>
+            </li>
+            
+            <li data-cidade="Porto Alegre" data-pais="Brasil" data-continente="América do Sul" data-local="Casa Gaúcha">
+                <a href="">
+                    <div class="anuncio">
+                        <img src="imagens/anuncios/porto-alegre.png" alt="" class="imagem-viagem">
+                        <span class="nome">Casa Gaúcha</span> <br>
+                        <span class="custo">R$802,00</span> <span class="p-noite">p/ noite</span> <br>
+                        <span class="local">Porto Alegre, Brasil</span> <br>
+                        <span class="nota">★4,6</span> 
+                    </div>
+                </a>
+            </li>
+
+            <li data-cidade="Boa Vista" data-pais="Brasil" data-continente="América do Sul" data-local="Roraima Parque">
+                <a href="">
+                    <div class="anuncio">
+                        <img src="imagens/anuncios/boa-vista.png" alt="" class="imagem-viagem">
+                        <span class="nome">Roraima Parque</span> <br>
+                        <span class="custo">R$391,00</span> <span class="p-noite">p/ noite</span> <br>
+                        <span class="local">Boa Vista, Brasil</span> <br>
+                        <span class="nota">★3,6</span> 
+                    </div>
+                </a>
+            </li>
+
+            <li data-cidade="San José" data-pais="Costa Rica" data-continente="América Central" data-local="San José Hotel">
+                <a href="">
+                    <div class="anuncio">
+                        <img src="imagens/anuncios/san-jose.png" alt="" class="imagem-viagem">
+                        <span class="nome">San José Hotel</span> <br>
+                        <span class="custo">R$1.753,00</span> <span class="p-noite">p/ noite</span> <br>
+                        <span class="local">San José, Costa Rica</span> <br>
+                        <span class="nota">★4,7</span> 
+                    </div>
+                </a>
+            </li>
+            
+            <li data-cidade="Rosario" data-pais="Argentina" data-continente="América do Sul" data-local="Pousada Lionel Messi">
+                <a href="">
+                    <div class="anuncio">
+                        <img src="imagens/anuncios/rosario.png" alt="" class="imagem-viagem">
+                        <span class="nome">Pousada Lionel Messi</span> <br>
+                        <span class="custo">R$820,00</span> <span class="p-noite">p/ noite</span> <br>
+                        <span class="local">Rosario, Argentina</span> <br>
+                        <span class="nota">★4,1</span> 
+                    </div>
+                </a>
+            </li>
+
+            <li data-cidade="Tijuana" data-pais="México" data-continente="América do Norte" data-local="Playa Costa Azul">
+                <a href="">
+                    <div class="anuncio">
+                        <img src="imagens/anuncios/tijuana.png" alt="" class="imagem-viagem">
+                        <span class="nome">Playa Costa Azul</span> <br>
+                        <span class="custo">R$2.101,00</span> <span class="p-noite">p/ noite</span> <br>
+                        <span class="local">Tijuana, México</span> <br>
+                        <span class="nota">★4,9</span> 
+                    </div>
+                </a>
+            </li>
+
+            <li data-cidade="" data-pais="" data-continente="" data-local="">
+                <a href="">
+                    <div class="anuncio">
+                        <img src="imagens/anuncios/" alt="" class="imagem-viagem">
+                        <span class="nome">Local</span> <br>
+                        <span class="custo">R$1.000,00</span> <span class="p-noite">p/ noite</span> <br>
+                        <span class="local">Cidade, Estado, País</span> <br>
+                        <span class="nota">★4,7</span> 
+                    </div>
+                </a>
+            </li>
+
+            <li data-cidade="" data-pais="" data-continente="" data-local="">
+                <a href="">
+                    <div class="anuncio">
+                        <img src="imagens/anuncios/" alt="" class="imagem-viagem">
+                        <span class="nome">Local</span> <br>
+                        <span class="custo">R$1.000,00</span> <span class="p-noite">p/ noite</span> <br>
+                        <span class="local">Cidade, Estado, País</span> <br>
+                        <span class="nota">★4,7</span> 
+                    </div>
+                </a>
+            </li>
+
+            <li data-cidade="" data-pais="" data-continente="" data-local="">
+                <a href="">
+                    <div class="anuncio">
+                        <img src="imagens/anuncios/" alt="" class="imagem-viagem">
+                        <span class="nome">Local</span> <br>
+                        <span class="custo">R$1.000,00</span> <span class="p-noite">p/ noite</span> <br>
+                        <span class="local">Cidade, Estado, País</span> <br>
+                        <span class="nota">★4,7</span> 
+                    </div>
+                </a>
+            </li>
+
+            <li data-cidade="" data-pais="" data-continente="" data-local="">
+                <a href="">
+                    <div class="anuncio">
+                        <img src="imagens/anuncios/" alt="" class="imagem-viagem">
+                        <span class="nome">Local</span> <br>
+                        <span class="custo">R$1.000,00</span> <span class="p-noite">p/ noite</span> <br>
+                        <span class="local">Cidade, Estado, País</span> <br>
+                        <span class="nota">★4,7</span> 
+                    </div>
+                </a>
+            </li>
+
+            <li data-cidade="" data-pais="" data-continente="" data-local="">
+                <a href="">
+                    <div class="anuncio">
+                        <img src="imagens/anuncios/" alt="" class="imagem-viagem">
+                        <span class="nome">Local</span> <br>
+                        <span class="custo">R$1.000,00</span> <span class="p-noite">p/ noite</span> <br>
+                        <span class="local">Cidade, Estado, País</span> <br>
+                        <span class="nota">★4,7</span> 
+                    </div>
+                </a>
+            </li>
+
+            <li data-cidade="" data-pais="" data-continente="" data-local="">
+                <a href="">
+                    <div class="anuncio">
+                        <img src="imagens/anuncios/" alt="" class="imagem-viagem">
+                        <span class="nome">Local</span> <br>
+                        <span class="custo">R$1.000,00</span> <span class="p-noite">p/ noite</span> <br>
+                        <span class="local">Cidade, Estado, País</span> <br>
+                        <span class="nota">★4,7</span> 
+                    </div>
+                </a>
+            </li>
+
+            <li data-cidade="" data-pais="" data-continente="" data-local="">
+                <a href="">
+                    <div class="anuncio">
+                        <img src="imagens/anuncios/" alt="" class="imagem-viagem">
+                        <span class="nome">Local</span> <br>
+                        <span class="custo">R$1.000,00</span> <span class="p-noite">p/ noite</span> <br>
+                        <span class="local">Cidade, Estado, País</span> <br>
+                        <span class="nota">★4,7</span> 
+                    </div>
+                </a>
+            </li>
+
+            <li data-cidade="" data-pais="" data-continente="" data-local="">
+                <a href="">
+                    <div class="anuncio">
+                        <img src="imagens/anuncios/" alt="" class="imagem-viagem">
+                        <span class="nome">Local</span> <br>
+                        <span class="custo">R$1.000,00</span> <span class="p-noite">p/ noite</span> <br>
+                        <span class="local">Cidade, Estado, País</span> <br>
+                        <span class="nota">★4,7</span> 
+                    </div>
+                </a>
+            </li>
+
+            <li data-cidade="" data-pais="" data-continente="" data-local="">
+                <a href="">
+                    <div class="anuncio">
+                        <img src="imagens/anuncios/" alt="" class="imagem-viagem">
+                        <span class="nome">Local</span> <br>
+                        <span class="custo">R$1.000,00</span> <span class="p-noite">p/ noite</span> <br>
+                        <span class="local">Cidade, Estado, País</span> <br>
+                        <span class="nota">★4,7</span> 
+                    </div>
+                </a>
+            </li>
+
+            <li data-cidade="" data-pais="" data-continente="" data-local="">
+                <a href="">
+                    <div class="anuncio">
+                        <img src="imagens/anuncios/" alt="" class="imagem-viagem">
+                        <span class="nome">Local</span> <br>
+                        <span class="custo">R$1.000,00</span> <span class="p-noite">p/ noite</span> <br>
+                        <span class="local">Cidade, Estado, País</span> <br>
+                        <span class="nota">★4,7</span> 
+                    </div>
+                </a>
+            </li>
+
+            <li data-cidade="" data-pais="" data-continente="" data-local="">
+                <a href="">
+                    <div class="anuncio">
+                        <img src="imagens/anuncios/" alt="" class="imagem-viagem">
+                        <span class="nome">Local</span> <br>
+                        <span class="custo">R$1.000,00</span> <span class="p-noite">p/ noite</span> <br>
+                        <span class="local">Cidade, Estado, País</span> <br>
+                        <span class="nota">★4,7</span> 
+                    </div>
+                </a>
+            </li>
+
+            <li data-cidade="" data-pais="" data-continente="" data-local="">
+                <a href="">
+                    <div class="anuncio">
+                        <img src="imagens/anuncios/" alt="" class="imagem-viagem">
+                        <span class="nome">Local</span> <br>
+                        <span class="custo">R$1.000,00</span> <span class="p-noite">p/ noite</span> <br>
+                        <span class="local">Cidade, Estado, País</span> <br>
+                        <span class="nota">★4,7</span> 
+                    </div>
+                </a>
+            </li>
+
+            <li data-cidade="" data-pais="" data-continente="" data-local="">
+                <a href="">
+                    <div class="anuncio">
+                        <img src="imagens/anuncios/" alt="" class="imagem-viagem">
+                        <span class="nome">Local</span> <br>
+                        <span class="custo">R$1.000,00</span> <span class="p-noite">p/ noite</span> <br>
+                        <span class="local">Cidade, Estado, País</span> <br>
+                        <span class="nota">★4,7</span> 
+                    </div>
+                </a>
+            </li>
+
+            <li data-cidade="" data-pais="" data-continente="" data-local="">
+                <a href="">
+                    <div class="anuncio">
+                        <img src="imagens/anuncios/" alt="" class="imagem-viagem">
+                        <span class="nome">Local</span> <br>
+                        <span class="custo">R$1.000,00</span> <span class="p-noite">p/ noite</span> <br>
+                        <span class="local">Cidade, Estado, País</span> <br>
+                        <span class="nota">★4,7</span> 
+                    </div>
+                </a>
+            </li>
+
+            <li data-cidade="" data-pais="" data-continente="" data-local="">
+                <a href="">
+                    <div class="anuncio">
+                        <img src="imagens/anuncios/" alt="" class="imagem-viagem">
+                        <span class="nome">Local</span> <br>
+                        <span class="custo">R$1.000,00</span> <span class="p-noite">p/ noite</span> <br>
+                        <span class="local">Cidade, Estado, País</span> <br>
+                        <span class="nota">★4,7</span> 
+                    </div>
+                </a>
+            </li>
+
+            <li data-cidade="" data-pais="" data-continente="" data-local="">
+                <a href="">
+                    <div class="anuncio">
+                        <img src="imagens/anuncios/" alt="" class="imagem-viagem">
+                        <span class="nome">Local</span> <br>
+                        <span class="custo">R$1.000,00</span> <span class="p-noite">p/ noite</span> <br>
+                        <span class="local">Cidade, Estado, País</span> <br>
+                        <span class="nota">★4,7</span> 
+                    </div>
+                </a>
+            </li>
+
+            <li data-cidade="" data-pais="" data-continente="" data-local="">
+                <a href="">
+                    <div class="anuncio">
+                        <img src="imagens/anuncios/" alt="" class="imagem-viagem">
+                        <span class="nome">Local</span> <br>
+                        <span class="custo">R$1.000,00</span> <span class="p-noite">p/ noite</span> <br>
+                        <span class="local">Cidade, Estado, País</span> <br>
+                        <span class="nota">★4,7</span> 
+                    </div>
+                </a>
+            </li>
+
+            <li data-cidade="" data-pais="" data-continente="" data-local="">
+                <a href="">
+                    <div class="anuncio">
+                        <img src="imagens/anuncios/" alt="" class="imagem-viagem">
+                        <span class="nome">Local</span> <br>
+                        <span class="custo">R$1.000,00</span> <span class="p-noite">p/ noite</span> <br>
+                        <span class="local">Cidade, Estado, País</span> <br>
+                        <span class="nota">★4,7</span> 
+                    </div>
+                </a>
+            </li>
+
+            <li data-cidade="" data-pais="" data-continente="" data-local="">
+                <a href="">
+                    <div class="anuncio">
+                        <img src="imagens/anuncios/" alt="" class="imagem-viagem">
+                        <span class="nome">Local</span> <br>
+                        <span class="custo">R$1.000,00</span> <span class="p-noite">p/ noite</span> <br>
+                        <span class="local">Cidade, Estado, País</span> <br>
+                        <span class="nota">★4,7</span> 
+                    </div>
+                </a>
+            </li>
+
+            <li data-cidade="" data-pais="" data-continente="" data-local="">
+                <a href="">
+                    <div class="anuncio">
+                        <img src="imagens/anuncios/" alt="" class="imagem-viagem">
+                        <span class="nome">Local</span> <br>
+                        <span class="custo">R$1.000,00</span> <span class="p-noite">p/ noite</span> <br>
+                        <span class="local">Cidade, Estado, País</span> <br>
+                        <span class="nota">★4,7</span> 
+                    </div>
+                </a>
+            </li>
+
+            <li data-cidade="" data-pais="" data-continente="" data-local="">
+                <a href="">
+                    <div class="anuncio">
+                        <img src="imagens/anuncios/" alt="" class="imagem-viagem">
+                        <span class="nome">Local</span> <br>
+                        <span class="custo">R$1.000,00</span> <span class="p-noite">p/ noite</span> <br>
+                        <span class="local">Cidade, Estado, País</span> <br>
+                        <span class="nota">★4,7</span> 
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <footer>
+        <p>Todo os direitos reservados.<br>
+        by: Nicholas Brites<br>
+        BriteStop, 2024</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
